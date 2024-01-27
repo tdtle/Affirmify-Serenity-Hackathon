@@ -5,7 +5,7 @@ public class Finances {
   
   private ArrayList<Content> content;
 
-  public Finances(num) {
+  public Finances(String num) {
     System.out.println("Your daily Affirmify:");
     switch (num) {
       case "1":
