@@ -5,7 +5,7 @@ public class Appearances {
   
   private ArrayList<Content> content;
 
-  public Appearances(num) {
+  public Appearances(String num) {
     System.out.println("Your daily Affirmify:");
     content = new Arraylist<Content>();
     switch (num) {
@@ -83,9 +83,9 @@ public class Appearances {
         System.out.println("https://www.psychologytoday.com/ca/basics/body-image");
         content.add(" I am content with where I am in life and excited about where I am going.");
         break; 
-
-
     }
+
+    public Apperences(String action, 
 
   }
 }
