@@ -6,7 +6,7 @@ public class Appearances {
   private ArrayList<Content> content;
 
   public Appearances(num) {
-    System.out.print("Your daily Affirmify and a helpful link is...");
+    System.out.println("Your daily Affirmify:");
     content = new Arraylist<Content>();
     switch (num) {
       case "1":
