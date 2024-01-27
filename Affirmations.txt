@@ -41,83 +41,83 @@
 
 4-7
 
-contentment
-      appearances: I am present in my own life, engaged in the journey of self-discovery.
-      finances: Every day, I am taking steps toward a more secure financial future.
-      school/work: My life is a work in progress, constantly evolving and growing.
-      family/relationships: I actively invest time and effort into my relationships.
-      other: My life has purpose, and I actively contribute to it.
-
-
-boredom
-      appearances: I am a masterpiece in progress, and I appreciate the artistry of my existence.
-      finances: Boredom is a signal to explore new activities and experiences, explore new financial oppurtunities. 
-      school/work: I am open to discovering new interests and passions.
-      family/relationships: I choose to see my relationships with new eyes, appreciating the person they are becoming. Be proactive in planning activities and surprises.
-      other: Boredom is an opportunity for creativity, and I embrace it.
-
-
-annoyed
-      appearances: I am deserving of self-love and acceptance just as I am right now.
-      finances: I am grateful for the lessons hidden within moments of irritation.
-      school/work: I am not defined by the things that irritate me; I am defined by my response.
-      family/relationships: I choose to see the bigger picture, minimizing the impact of annoyances.
-      other: I am open to finding solutions rather than dwelling on annoyances.
-
-
-indifference
-      appearances: I choose to see the beauty within me and acknowledge my worth.
-      finances: I am grateful for the resources I have, and I use them wisely.
-      school/work: I appreciate and celebrate my strengths and accomplishments.
-      family/relationships: I communicate openly and honestly to strengthen my connections.
-      other: I release the habit of indifference and embrace a positive connection with myself.
-
-
-neutral
-      appearances: I choose to see the value and uniqueness in who I am.
-      finances: I am grateful for the abundance that flows into my life, and I manage it wisely.
-      school/work: I am present in my own life, engaged in the journey of self-discovery.
-      family/relationships: I am engaged in the dynamics of my relationships, seeking to understand and be understood.
-      other: I appreciate and celebrate my strengths and accomplishments.
+  contentment
+        appearances: I am present in my own life, engaged in the journey of self-discovery.
+        finances: Every day, I am taking steps toward a more secure financial future.
+        school/work: My life is a work in progress, constantly evolving and growing.
+        family/relationships: I actively invest time and effort into my relationships.
+        other: My life has purpose, and I actively contribute to it.
+  
+  
+  boredom
+        appearances: I am a masterpiece in progress, and I appreciate the artistry of my existence.
+        finances: Boredom is a signal to explore new activities and experiences, explore new financial oppurtunities. 
+        school/work: I am open to discovering new interests and passions.
+        family/relationships: I choose to see my relationships with new eyes, appreciating the person they are becoming. Be proactive in planning activities and surprises.
+        other: Boredom is an opportunity for creativity, and I embrace it.
+  
+  
+  annoyed
+        appearances: I am deserving of self-love and acceptance just as I am right now.
+        finances: I am grateful for the lessons hidden within moments of irritation.
+        school/work: I am not defined by the things that irritate me; I am defined by my response.
+        family/relationships: I choose to see the bigger picture, minimizing the impact of annoyances.
+        other: I am open to finding solutions rather than dwelling on annoyances.
+  
+  
+  indifference
+        appearances: I choose to see the beauty within me and acknowledge my worth.
+        finances: I am grateful for the resources I have, and I use them wisely.
+        school/work: I appreciate and celebrate my strengths and accomplishments.
+        family/relationships: I communicate openly and honestly to strengthen my connections.
+        other: I release the habit of indifference and embrace a positive connection with myself.
+  
+  
+  neutral
+        appearances: I choose to see the value and uniqueness in who I am.
+        finances: I am grateful for the abundance that flows into my life, and I manage it wisely.
+        school/work: I am present in my own life, engaged in the journey of self-discovery.
+        family/relationships: I am engaged in the dynamics of my relationships, seeking to understand and be understood.
+        other: I appreciate and celebrate my strengths and accomplishments.
 
 
 8-10
 
-joy
-      appearances: 
-      finances:
-      school/work:
-      family/relationships: 
-      other:
-
-
-gratitude
-      appearances: 
-      finances:
-      school/work:
-      family/relationships: 
-      other:
-
-
-love
-      appearances: 
-      finances:
-      school/work:
-      family/relationships: 
-      other:
-
-
-peace
-      appearances: 
-      finances:
-      school/work:
-      family/relationships: 
-      other:
-
-
-satisfaction
-      appearances: 
-      finances:
-      school/work:
-      family/relationships: 
-      other:
+  joy
+        appearances: I am a magnet for joy, and I attract positivity into my life.
+        finances: Joy is the fuel for my soul, and I allow it to light up my life.
+        school/work: The more I express gratitude, the more joy I attract into my life.
+        family/relationships: My life is filled with moments of pure and unbridled joy.
+        other: I am in tune with the rhythm of joy, and I dance through life with a joyful heart.
+  
+  
+  gratitude
+        appearances: Gratitude is a constant presence in my life, guiding my thoughts and actions.
+        finances: I am grateful for the abundance that surrounds me.
+        school/work: I am grateful for the opportunities for growth that come my way.
+        family/relationships: My heart is filled with gratitude for the love and support I receive.
+        other: Today, I choose to focus on what I have rather than what I lack.
+  
+  
+  love
+        appearances: I am a channel of love, and it flows through me effortlessly.
+        finances: Love and abundance are my birthrights, and I embrace them with gratitude.
+        school/work: I am deeply loved, and I allow that love to penetrate every cell of my being.
+        family/relationships: My relationships are a reflection of the love I hold within.
+        other: I attract love by being my authentic and genuine self.
+  
+  
+  peace
+        appearances: I am at peace with my past, present, and future.
+        finances: I let go of the need for control and surrender to the flow of life.
+        school/work: My mind is calm, and my heart is at peace.
+        family/relationships: My thoughts are clear, and my mind is a haven of peace.
+        other: Today, I choose peace over worry, and I carry this peace into tomorrow.
+  
+  
+  satisfaction
+        appearances: I am content with where I am in life and excited about where I am going.
+        finances: I release the need for more and embrace the abundance of what I already have.
+        school/work: Satisfaction is my compass, guiding me toward positive and fulfilling experiences.
+        family/relationships: I am content with who I am, where I am, and where I am headed.
+        other: Satisfaction flows through me, enhancing my overall well-being.
