@@ -84,8 +84,18 @@ public class FamilyRship {
         System.out.println("https://www.health.harvard.edu/staying-healthy/ways-to-keep-your-relationship-strong");
         content.add("I am content with who I am, where I am, and where I am headed.\n");
         break; 
+    }
 
+    public FamilyRship(String action, String temp) {
+      for (int i = 1; i <= content.size(); i++) {
+        System.out.println("Log " + i);
+        System.out.println(this.content.get(i-1));
+      }
+      System.out.println("          Would you like to add any thoughts to your Family/Relationship log reflection today?\n          This can be what you are learning from your daily affirmations and how you've been achiving them, rather how you will.\n          YES or NO?");
+    }
 
+    public void Add(String content) {
+      this.content.add("\nPersonal Log: " + content + "\n");  
     }
 
   }
