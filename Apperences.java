@@ -6,9 +6,11 @@ public class Appearances {
   private ArrayList<Content> content;
 
   public Appearances(num) {
+    content = new Arraylist<Content>();
     switch (num) {
       case "1":
         System.out.println();
+        content.add("");
         break;
       case "2":
         
