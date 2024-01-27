@@ -85,7 +85,11 @@ public class Appearances {
         break; 
     }
 
-    public Apperences(String action, 
-
+    public Apperences(String action, String temp) {
+      for (int i = 1; i <= content.size(); i++) {
+        System.out.println("Log " + i);
+        System.out.println(content.get(i-1));
+      }
+    }
   }
 }
