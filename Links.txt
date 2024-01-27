@@ -1,1 +1,18 @@
-
+0-3
+  appearances:  https://www.nationaleatingdisorders.org/ https://www.psychologytoday.com/ca/basics/body-image https://www.betterhelp.com/
+  finances: https://www.ynab.com/ https://www.kiplinger.com/ https://www.betterhelp.com/
+  school/work: https://www.themuse.com/ https://www.peardeck.com/products/pear-deck-tutor https://noc.esdc.gc.ca/CareerHandbook/ChWelcome  https://www.betterhelp.com/
+  family/relationships: https://www.boundariesbooks.com/ https://www.youtube.com/@watchwellcast https://www.betterhelp.com/
+  other: https://www.betterhelp.com/ https://www.ted.com/talks/matthieu_ricard_the_habits_of_happiness?language=en 
+4-6
+  appearances: https://bodyimagemovement.com/ https://www.psychologytoday.com/ca/basics/body-image
+  finances: https://goodbudget.com/ https://www.helpguide.org/articles/stress/coping-with-financial-stress.htm
+  school/work: https://www.edx.org/ https://www.khanacademy.org/ https://www.peardeck.com/products/pear-deck-tutor https://www.notion.so/
+  family/relationships: https://artonfoundation.bg/en/119.emotional-intelligence-in-love-and-relationships.html https://www.youtube.com/@watchwellcast
+  other: https://positivepsychology.com/how-to-be-happy/
+7-10
+  appearances: https://www.psychologytoday.com/ca/basics/body-image
+  finances: https://goodbudget.com/
+  school/work: https://www.notion.so/
+  family/relationships: https://www.health.harvard.edu/staying-healthy/ways-to-keep-your-relationship-strong
+  other: https://greatergood.berkeley.edu/podcasts/series/the_science_of_happiness%C2%A0
