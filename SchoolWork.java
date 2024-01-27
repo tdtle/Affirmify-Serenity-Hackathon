@@ -6,6 +6,7 @@ public class SchoolWork {
   private ArrayList<Content> content;
 
   public SchoolWork(num){
+    System.out.println("Your daily Affirmify:");
     content = new Arraylist<Content>();
     switch(num){
       case "1":
