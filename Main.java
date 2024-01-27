@@ -2,6 +2,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+
+        
+
+                                //what you learned from the daily affirmations nd how you think you can achieve 
+                        //it in the future
+                    
+
+
         
         Scanner scanner = new Scanner(System.in);
         System.out.println("          How was your day?");
@@ -19,20 +28,23 @@ public class Main {
                 System.out.println("          Why are you feeling this way?");
                 System.out.println("          'Appearances', 'Finances', 'School/Work', 'Family/Relationships', 'Other'");
                 String action2 = scanner.nextLine().toLowerCase();
+
                 while (action1 != null && action2 != null) {
                     if (action2.equals("appearances")) {
                         Appearences app = new Appearences(action1);
-                        //what you learned from the daily affirmationa nd how you think you can achieve 
-                        //it in the future
-                        
+                        break;
                     } else if (action2.equals("finances")) {
-                        Finances fin = new Finances(action1);;
+                        Finances fin = new Finances(action1);
+                        break;
                     } else if (action2.equals("school/work")) {
                         SchoolWork sch = new SchoolWork(action1);
+                        break;
                     } else if (action2.equals("family/relationships")) {
                         FamilyRship fm = new FamilyRship(action1);
+                        break;
                     } else if (action2.equals("other")) {
                         Other oth = new Other(action1);
+                        break;
                     }else {
                         System.out.println("          Please try again!");
                         System.out.println("          Which emotion resonates?");
@@ -42,6 +54,7 @@ public class Main {
                         System.out.println("          'Appearances', 'Finances', 'School/Work', 'Family/Relationships', 'Other'");
                         String action2 = scanner.nextline().toLowerCase();
                     }
+                    
                 }
             
             } else if (action.equals("5-7")) {
@@ -54,14 +67,19 @@ public class Main {
                 while (action1 != null && action2 != null) {
                     if (action2.equals("appearances")) {
                         Appearences app = new Appearences(action1);
+                        break;
                     } else if (action2.equals("finances")) {
-                        Finances fin = new Finances(action1);;
+                        Finances fin = new Finances(action1);
+                        break;
                     } else if (action2.equals("school/work")) {
                         SchoolWork sch = new SchoolWork(action1);
+                        break;
                     } else if (action2.equals("family/relationships")) {
                         FamilyRship fm = new FamilyRship(action1);
+                        break;
                     } else if (action2.equals("other")) {
                         Other oth = new Other(action1);
+                        break;
                     }else  {
                         System.out.println("          Please try again!");
                         System.out.println("          Which emotion resonates?");                      
@@ -82,14 +100,19 @@ public class Main {
                 while (action1 != null && action2 != null) {
                     if (action2.equals("appearances")) {
                         Appearences app = new Appearences(action1);
+                        break;
                     } else if (action2.equals("finances")) {
-                        Finances fin = new Finances(action1);;
+                        Finances fin = new Finances(action1);
+                        break;
                     } else if (action2.equals("school/work")) {
                         SchoolWork sch = new SchoolWork(action1);
+                        break;
                     } else if (action2.equals("family/relationships")) {
                         FamilyRship fm = new FamilyRship(action1);
+                        break;
                     } else if (action2.equals("other")) {
                         Other oth = new Other(action1);
+                        break;
                     }else {
                         System.out.println("          Please try again!");
                         System.out.println("          Which emotion resonates?");                      
@@ -100,6 +123,12 @@ public class Main {
                         String action2 = scanner.nextline().toLowerCase();
                     }
                 }
+
+            } else if (action.equals("0")) {
+                
+
+            } else if (action.equals("-1")) {
+
 
             } else {
                 System.out.println("          Please Try Again with the corrrect response!");                
