@@ -23,8 +23,10 @@ public class Main {
 
             } else if (ations.equals("8-10")) {
 
-            } else (action == null || action.equals("") {
-                System.out.print(
+            } else if (action == null || action.equals("") {
+                System.out.println("          Please Try Again with the corrrect response!");                System.out.println("          How was your day?");
+                System.out.println("          Rate your day as 0-4, 5-7, 8-10");
+                System.out.println("          Please write it as "0-4" or "5-7" or "8-10"");
             }
         }
         
