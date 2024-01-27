@@ -18,8 +18,8 @@ public class Main {
             String action = scanner.nextLine();
 
             if (action.equals("0-4")) {
-                System.out.println("          Which emotion resonates?");
-                System.out.println("          Unmotivated, Anxious, Anger, Shame, Sadness?");
+                System.out.println("          Which emotion resonates? Please type the number.");
+                System.out.println("          1.Unmotivated  2.Anxious  3.Anger  4.Shame  5.Sadness?");
                 String action1 = scanner.nextLine();
                 While (action1) {
                     if (action1.equals("Unmotivated") || action1.equals("unmotivated") {
@@ -41,59 +41,59 @@ public class Main {
                 }
             
             } else if (action.equals("5-7")) {
-                System.out.println("          Which emotions resonates?");
-                System.out.println("          Contentment, Boredom, Annoyance, Indfferennce, Neutraility. (Do not add spaces or extra characters)");
-                String FiveToSevenEmotion = scanner.nextLine.toLowerCase();
-                while (FiveToSevenEmotion) {
-                    if (FiveToSevenEmotion.equals("contentment")) {
+                System.out.println("          Which emotions resonates? Please type the number.");
+                System.out.println("          1.Contentment  2.Boredom  3.Annoyance  4.Indfferennce  5.Neutraility");
+                String action1 = scanner.nextLine.toLowerCase();
+                while (action1) {
+                    if (action1.equals("contentment")) {
 
-                    } else if (FiveToSevenEmotion.equals("boredom")) {
+                    } else if (action1.equals("boredom")) {
 
-                    } else if (FiveToSevenEmotion.equals("annoyance")) {
+                    } else if (action1.equals("annoyance")) {
 
-                    } else if (FiveToSevenEmotion.equals("indifference")) {
+                    } else if (action1.equals("indifference")) {
 
-                    } else if (FiveToSevenEmotion.equals("neutrality")) {
+                    } else if (action1.equals("neutrality")) {
 
                     } else {
                         System.out.println("          Please try again!");
                         System.out.println("          Which emotion resonates?");
                         System.out.println("          Contentment, Boredom, Annoyance, Indfferennce, Neutraility. Do not add spaces or extra characters");
-                        String FiveToSevenEmotion = scanner.nextLine().toLowerCase();
+                        String action1 = scanner.nextLine().toLowerCase();
                     }
                 }
 
             } 
             else if (action.equals("8-10")) {
-                System.out.println("        Which emotions resonate with you today?");
-                System.out.println("        Joy, Gratitude, Love, Peace, Satisfaction? Do not add extra spaces or characters.");
-                String action3 = scanner.nextLine();
+                System.out.println("        Which emotions resonate? Please type the number");
+                System.out.println("        1.Joy  2.Gratitude  3.Love  4.Peace  5.Satisfaction");
+                String action1 = scanner.nextLine();
 
-                while (action3){
-                    if (action3.equals("Joy") || action3.equals("joy")){
-
-                    }
-
-                    else if (action3.equals("Gratitude") || action3.equals("gratitude")){
+                while (action1){
+                    if (action1.equals("1") || action3.equals("joy")){
 
                     }
 
-                    else if (action3.equals("Love") || action3.equals("love")){
+                    else if (action1.equals("Gratitude") || action1.equals("gratitude")){
 
                     }
 
-                    else if (action3.equals("Peace") || action3.equals("peace")){
+                    else if (action1.equals("Love") || action1.equals("love")){
 
                     }
 
-                    else if (action3.equals("Satisfaction") || action3.equals("satisfaction")){
+                    else if (action1.equals("Peace") || action1.equals("peace")){
 
                     }
-                    else if (action3.equals(null) || action3.equals("")){
+
+                    else if (action1.equals("Satisfaction") || action1.equals("satisfaction")){
+
+                    }
+                    else if (action1.equals(null) || action1.equals("")){
                         System.out.println("          Please try again!");
                         System.out.println("          Which emotion resonates?");
                         System.out.println("          Joy, Gratitude, Love, Peace, Satisfaction? Do not add spaces or extra characters");
-                        String action3 = scanner.nextLine();
+                        String action1 = scanner.nextLine();
                     }
 
 
