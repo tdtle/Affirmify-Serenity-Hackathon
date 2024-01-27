@@ -49,11 +49,24 @@ public class Main {
                 }
             
             } else if (action.equals("5-7")) {
-                System.out.println("          Which emotions resonates?");
-                System.out.println("          Contentment, Boredom, Annoyance, Indfferennce, Neutraility. (Do not add spaces or extra characters)");
-                String FiveToSevenEmotion = scanner.nextLine.toLowerCase(); 
-                if (FiveToSevenEmotion.equals("contentment"))
-                
+                while (FiveToSevenEmotion) {
+                    System.out.println("          Which emotions resonates?");
+                    System.out.println("          Contentment, Boredom, Annoyance, Indfferennce, Neutraility. (Do not add spaces or extra characters)");
+                    String FiveToSevenEmotion = scanner.nextLine.toLowerCase();
+                    if (FiveToSevenEmotion.equals("contentment")) {
+
+                    } else if (FiveToSevenEmotion.equals("boredom")) {
+
+                    } else if (FiveToSevenEmotion.equals("annoyance")) {
+
+                    } else if (FiveToSevenEmotion.equals("indifference")) {
+
+                    } else if (FiveToSevenEmotion.equals("neutrality")) {
+
+                    } else {
+                            
+                    }
+                }
 
             } else if (ations.equals("8-10")) {
                 System.out.println("        Which emotions resonate with you today?");
