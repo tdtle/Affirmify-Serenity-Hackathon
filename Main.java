@@ -12,7 +12,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("          How was your day?");
         System.out.println("          Rate your day as 0-4, 5-7, 8-10");
-        System.out.println("          Please write it as "0-4" or "5-7" or "8-10"");
+        System.out.println("          Please write it as '0-4' or '5-7' or '8-10'");
 
         while (scanner.hasNextLine()) {
             String action = scanner.nextLine();
@@ -22,7 +22,7 @@ public class Main {
                 System.out.println("          1.Unmotivated  2.Anxious  3.Anger  4.Shame  5.Sadness? (Do not add spaces or extra characters)");
                 String action1 = scanner.nextLine();
                 System.out.println("          Why are you feeling this way?");
-                System.out.println("          Appearances, Finances, School, Work, Family/Relationships, Other.");
+                System.out.println("          'Appearances', 'Finances', 'School', 'Work', 'Family/Relationships', 'Other'.");
                 String action2 = scanner.nextline().toLowerCase();
                 While (action1 && action2) {
                     if (action2.equals("appearances")) {
