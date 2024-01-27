@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class Main {
     
-    public ArrayList<Content> content;
-    
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
