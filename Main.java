@@ -11,7 +11,7 @@ public class Main {
                     
 
 
-        
+        private ArrayList<Content> content;
         Scanner scanner = new Scanner(System.in);
         System.out.println("          How was your day?");
         System.out.println("          Rate your day as 0-4, 5-7, 8-10");
