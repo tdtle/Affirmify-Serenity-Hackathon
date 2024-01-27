@@ -1,1 +1,36 @@
-Affirmations
+0-3
+  unmotivated
+      appearances 
+      finances
+      school   
+      work
+      family/relationships 
+      other
+  anxious
+        appearances 
+        finances
+        school   
+        work
+        family/relationships 
+        other
+  anger
+        appearances 
+        finances
+        school   
+        work
+        family/relationships 
+        other
+  shame 
+      appearances 
+      finances
+      school   
+      work
+      family/relationships 
+      other
+  sadness 
+        appearances 
+      finances
+      school   
+      work
+      family/relationships 
+      other
