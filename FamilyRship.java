@@ -6,7 +6,7 @@ public class FamilyRship {
   private ArrayList<Content> content;
 
   public FamilyRship(num) {
-    System.out.print("Your daily Affirmify and a helpful link is...");
+    System.out.println("Your daily Affirmify:");
     switch (num) {
       case "1":
         System.out.println("I attract positive and supportive people into my life.");
