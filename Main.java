@@ -56,7 +56,10 @@ public class Main {
                     } else if (FiveToSevenEmotion.equals("neutrality")) {
 
                     } else {
-                            
+                        System.out.println("          Please try again!");
+                        System.out.println("          Which emotion resonates?");
+                        System.out.println("          Contentment, Boredom, Annoyance, Indfferennce, Neutraility. Do not add spaces or extra characters");
+                        String action1 = scanner.nextLine();
                     }
                 }
 
