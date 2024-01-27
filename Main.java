@@ -93,7 +93,7 @@ public class Main {
                         System.out.println("          Please try again!");
                         System.out.println("          Which emotion resonates?");
                         System.out.println("          Joy, Gratitude, Love, Peace, Satisfaction? Do not add spaces or extra characters");
-                        String action1 = scanner.nextLine();
+                        String action3 = scanner.nextLine();
                     }
 
 
