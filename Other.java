@@ -6,6 +6,7 @@ public class Other {
   private ArrayList<Content> content;
 
   public Other(num) {
+    System.out.println("Your daily Affirmify:");
     switch (num) {
       case "1":
         System.out.println("My motivation is a reflection of my inner strength and resilience.");
