@@ -6,9 +6,8 @@ import java.io.FileReader;
 
 public class methods{
 
-    public methods(String str1) {
-        if ((str1.toLowerCase())equals("
-    }
+    public methods() { }
+    
     public static void unmotivated(String str1){
         System.out.println("affirmation: ");
     }
