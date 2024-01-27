@@ -94,7 +94,7 @@ public class Appearances {
       System.out.println("          Would you like to add any thoughts to your APPERENCES log reflection today? YES or NO?");
     }
 
-    public void Print(String content) {
+    public void Add(String content) {
       this.content.add("\nPersonal Log: " + content + "\n");  
     }
     
