@@ -19,7 +19,7 @@ public class Main {
 
             if (action.equals("0-4")) {
                 System.out.println("          Which emotion resonates? Please type the number.");
-                System.out.println("          1.Unmotivated  2.Anxious  3.Anger  4.Shame  5.Sadness?");
+                System.out.println("          1.Unmotivated  2.Anxious  3.Anger  4.Shame  5.Sadness? (Do not add spaces or extra characters)");
                 String action1 = scanner.nextLine();
                 System.out.println("          Why are you feeling this way?");
                 System.out.println("          Appearances, Finances, School, Work, Family/Relationships, Other.");
@@ -34,76 +34,71 @@ public class Main {
                     } else if (action2.equals("work")) {
                         Work wrk = new Work(action1);
                     } else if (action2.equals("family/relationships")) {
-                        Family fm = new Family(action1);
+                        FamilyRship fm = new FamilyRship(action1);
                     } else if (action2.equals("other")) {
                         Other oth = new Other(action1);
                     }else if (action1.equals(null) || action1.equals("") || action2.equals(null) || action2.equals("")) {
                         System.out.println("          Please try again!");
                         System.out.println("          Which emotion resonates?");
-                        System.out.println("          Unmotivated, Anxious, Anger, Shame, Sadness? Do not add spaces or extra characters");
+                        System.out.println("          1.Unmotivated  2.Anxious  3.Anger  4.Shame  5.Sadness? (Do not add spaces or extra characters)");
                         String action1 = scanner.nextLine();
                     }
                 }
             
             } else if (action.equals("5-7")) {
                 System.out.println("          Which emotions resonates?");
-                System.out.println("          1.Contentment, 2.Boredom, 3.Annoyance, 4.Indifference, 5.Neutrality. (Do not add spaces or extra characters)");
-                int action1 = scanner.nextLine();
-                System.out.println("          Why are you feeling this way?");
-                System.out.println("          Appearances, Finances, School/Work, Family/Relationships, Other.");
-                String action2 = scanner.nextline().toLowerCase();
-
-                while (FiveToSevenEmotion) {
-                    if (FiveToSevenEmotion == 1) {
-
-                    } else if (FiveToSevenEmotion == 2) {
-
-                    } else if (FiveToSevenEmotion == 3) {
-
-                    } else if (FiveToSevenEmotion == 4) {
-
-                    } else if (FiveToSevenEmotion == 5) {
-
-                    } else {
-                        System.out.println("          Please try again!");
-                        System.out.println("          Which emotion resonates?");
-                        System.out.println("          1.Contentment, 2.Boredom, 3.Annoyance, 4.Indifference, 5.Neutrality. (Do not add spaces or extra characters)");
-                        int FiveToSevenEmotion = scanner.nextLine();
-                        System.out.println("          Why are you feeling this way?");
-                        System.out.println("          Appearances, Finances, School/Work, Family/Relationships, Other.");
-                        String FiveToSevenSituation = scanner.nextline().toLowerCase();
-                    }
-                }
-
-            }
-            } 
-            else if (action.equals("8-10")) {
-                System.out.println("        Which emotions resonate? Please type the number");
-                System.out.println("        1.Joy  2.Gratitude  3.Love  4.Peace  5.Satisfaction");
+                System.out.println("          1.Contentment, 2.Boredom, 3.Annoyance, 4.Indifference, 5.Neutrality? (Do not add spaces or extra characters)");
                 String action1 = scanner.nextLine();
-
-                while (action1){
-                    if (action1.equals("1")) {
-
-                    } else if (action1.equals("2")) {
-                    
-                    } else if (action1.equals("3")) {
-                    
-                    } else if (action1.equals("4")) {
-                    
-                    } else if (action1.equals("5")) {
-                    
-                    }
-                    else if (action1.equals(null) || action1.equals("")){
+                System.out.println("          Why are you feeling this way?");
+                System.out.println("          Appearances, Finances, School, Work, Family/Relationships, Other.");
+                String action2 = scanner.nextline().toLowerCase();
+                While (action1 && action2) {
+                    if (action2.equals("appearances")) {
+                        Appearences app = new Appearences(action1);
+                    } else if (action2.equals("finances")) {
+                        Finances fin = new Finances(action1);;
+                    } else if (action2.equals("school")) {
+                        School sch = new School(action1);
+                    } else if (action2.equals("work")) {
+                        Work wrk = new Work(action1);
+                    } else if (action2.equals("family/relationships")) {
+                        FamilyRship fm = new FamilyRship(action1);
+                    } else if (action2.equals("other")) {
+                        Other oth = new Other(action1);
+                    }else if (action1.equals(null) || action1.equals("") || action2.equals(null) || action2.equals("")) {
                         System.out.println("          Please try again!");
                         System.out.println("          Which emotion resonates?");
-                        System.out.println("          Joy, Gratitude, Love, Peace, Satisfaction? Do not add spaces or extra characters");
+                        System.out.println("          1.Contentment, 2.Boredom, 3.Annoyance, 4.Indifference, 5.Neutrality? (Do not add spaces or extra characters)");
                         String action1 = scanner.nextLine();
                     }
-
-
                 }
-
+            } else if (action.equals("8-10")) {
+                System.out.println("        Which emotions resonate? Please type the number");
+                System.out.println("        1.Joy  2.Gratitude  3.Love  4.Peace  5.Satisfaction? (Do not add spaces or extra characters)");
+                String action1 = scanner.nextLine();
+                System.out.println("          Why are you feeling this way?");
+                System.out.println("          Appearances, Finances, School, Work, Family/Relationships, Other.");
+                String action2 = scanner.nextline().toLowerCase();
+                While (action1 && action2) {
+                    if (action2.equals("appearances")) {
+                        Appearences app = new Appearences(action1);
+                    } else if (action2.equals("finances")) {
+                        Finances fin = new Finances(action1);;
+                    } else if (action2.equals("school")) {
+                        School sch = new School(action1);
+                    } else if (action2.equals("work")) {
+                        Work wrk = new Work(action1);
+                    } else if (action2.equals("family/relationships")) {
+                        FamilyRship fm = new FamilyRship(action1);
+                    } else if (action2.equals("other")) {
+                        Other oth = new Other(action1);
+                    }else if (action1.equals(null) || action1.equals("") || action2.equals(null) || action2.equals("")) {
+                        System.out.println("          Please try again!");
+                        System.out.println("          Which emotion resonates?");
+                        System.out.println("        1.Joy  2.Gratitude  3.Love  4.Peace  5.Satisfaction? (Do not add spaces or extra characters)");
+                        String action1 = scanner.nextLine();
+                    }
+                }
 
             } else if (action == null || action.equals("") {
                 System.out.println("          Please Try Again with the corrrect response!");                
