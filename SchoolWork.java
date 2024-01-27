@@ -5,7 +5,7 @@ public class SchoolWork {
 
   private ArrayList<Content> content;
 
-  public SchoolWork(num){
+  public SchoolWork(String num){
     System.out.println("Your daily Affirmify:");
     content = new Arraylist<Content>();
     switch(num){
