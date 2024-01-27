@@ -6,14 +6,6 @@ public class Main {
     
     public static void main(String[] args) {
 
-
-        
-
-                                //what you learned from the daily affirmations nd how you think you can achieve 
-                        //it in the future
-                    
-
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("          How was your day?");
         System.out.println("          Rate your day as 0-4, 5-7, 8-10");
@@ -140,17 +132,44 @@ public class Main {
                     }
                 } else if (action2.equals("2")) {
                     Finances fin = new Finances(action1, "print");
+                    String action2 = scanner.nextLine().toLowerCase();
+                    if (action2.equals("yes")) 
+                    {
+                        System.out.println("Please enter your personal log: ");
+                        String action3 = scanner.nextLine();
+                        fin.Add(action3);
+                    }
                 } else if (action2.equals("3")) {
                     SchoolWork sch = new SchoolWork(action1, "print");
+                    String action2 = scanner.nextLine().toLowerCase();
+                    if (action2.equals("yes")) 
+                    {
+                        System.out.println("Please enter your personal log: ");
+                        String action3 = scanner.nextLine();
+                        sch.Add(action3);
+                    }
                 } else if (action2.equals("4")) {
                     FamilyRship fm = new FamilyRship(action1, "print");
+                    String action2 = scanner.nextLine().toLowerCase();
+                    if (action2.equals("yes")) 
+                    {
+                        System.out.println("Please enter your personal log: ");
+                        String action3 = scanner.nextLine();
+                        fm.Add(action3);
+                    }
                 } else if (action2.equals("5")) {
                     Other oth = new Other(action1, "print");
+                    String action2 = scanner.nextLine().toLowerCase();
+                    if (action2.equals("yes")) 
+                    {
+                        System.out.println("Please enter your personal log: ");
+                        String action3 = scanner.nextLine();
+                        oth.Add(action3);
+                    }
                 }else if (action2.equals("0")) {
                     System.out.println("          Thanks for joining Affirmify today! Hope to see you and your mental health tomorow! :)");
                     break outerloop;
                 }
-                past log reflections with
             } else if (action.equals("-1")) {
                 System.out.println("          Thanks for joining Affirmify today! Hope to see you and your mental health tomorow! :)");
                 break outerloop;
