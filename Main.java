@@ -134,6 +134,7 @@ public class Main {
                     String action2 = scanner.nextLine().toLowerCase();
                     if (action2.equals("yes")) 
                     {
+                        System.out.println("Please enter your personal log: ");
                         String action3 = scanner.nextLine();
                         app.Add(action3);
                     }
