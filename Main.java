@@ -22,15 +22,15 @@ public class Main {
                 System.out.println("          1.Unmotivated  2.Anxious  3.Anger  4.Shame  5.Sadness?");
                 String action1 = scanner.nextLine();
                 While (action1) {
-                    if (action1.equals("Unmotivated") || action1.equals("unmotivated") {
+                    if (action1.equals("1")) {
 
-                    } else if (action1.equals("Anxious") || action1.equals("anxious") {
+                    } else if (action1.equals("2")) {
                     
-                    } else if (action1.equals("Anger") || action1.equals("anger") {
+                    } else if (action1.equals("3")) {
                     
-                    } else if (action1.equals("Shame") || action1.equals("shame") {
+                    } else if (action1.equals("4")) {
                     
-                    } else if (action1.equals("Sadness") || action1.equals("sadness") {
+                    } else if (action1.equals("5")) {
                     
                     } else if (action1.equals(null) || action1.equals("") {
                         System.out.println("          Please try again!");
@@ -45,16 +45,16 @@ public class Main {
                 System.out.println("          1.Contentment  2.Boredom  3.Annoyance  4.Indfferennce  5.Neutraility");
                 String action1 = scanner.nextLine.toLowerCase();
                 while (action1) {
-                    if (action1.equals("contentment")) {
+                    if (action1.equals("1")) {
 
-                    } else if (action1.equals("boredom")) {
-
-                    } else if (action1.equals("annoyance")) {
-
-                    } else if (action1.equals("indifference")) {
-
-                    } else if (action1.equals("neutrality")) {
-
+                    } else if (action1.equals("2")) {
+                    
+                    } else if (action1.equals("3")) {
+                    
+                    } else if (action1.equals("4")) {
+                    
+                    } else if (action1.equals("5")) {
+                    
                     } else {
                         System.out.println("          Please try again!");
                         System.out.println("          Which emotion resonates?");
@@ -70,24 +70,16 @@ public class Main {
                 String action1 = scanner.nextLine();
 
                 while (action1){
-                    if (action1.equals("1") || action3.equals("joy")){
+                    if (action1.equals("1")) {
 
-                    }
-
-                    else if (action1.equals("Gratitude") || action1.equals("gratitude")){
-
-                    }
-
-                    else if (action1.equals("Love") || action1.equals("love")){
-
-                    }
-
-                    else if (action1.equals("Peace") || action1.equals("peace")){
-
-                    }
-
-                    else if (action1.equals("Satisfaction") || action1.equals("satisfaction")){
-
+                    } else if (action1.equals("2")) {
+                    
+                    } else if (action1.equals("3")) {
+                    
+                    } else if (action1.equals("4")) {
+                    
+                    } else if (action1.equals("5")) {
+                    
                     }
                     else if (action1.equals(null) || action1.equals("")){
                         System.out.println("          Please try again!");
