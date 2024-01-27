@@ -6,7 +6,7 @@ public class Finances {
   private ArrayList<Content> content;
 
   public Finances(num) {
-    System.out.print("Your daily Affirmify and a helpful link is...");
+    System.out.println("Your daily Affirmify:");
     switch (num) {
       case "1":
         System.out.println("I am motivated by the vision of the success that awaits me.");
