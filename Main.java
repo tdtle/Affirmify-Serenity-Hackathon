@@ -1,9 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
-import java.util.StrincTokenizer;
-import java.util.*;
-
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +6,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("          How was your day?");
         System.out.println("          Rate your day as 0-4, 5-7, 8-10");
-        System.out.println("          Please write it as '0-4' or '5-7' or '8-10'");
+        System.out.println("          Type -1 and press enter to END Affirmify   OR   type 0 to skip the talking about your emotions part.");
+        System.out.println("          Please write it as '0-4' or '5-7' or '8-10' or '0' or '-1'");
 
         while (scanner.hasNextLine()) {
             String action = scanner.nextLine();
@@ -22,8 +18,8 @@ public class Main {
                 String action1 = scanner.nextLine();
                 System.out.println("          Why are you feeling this way?");
                 System.out.println("          'Appearances', 'Finances', 'School/Work', 'Family/Relationships', 'Other'");
-                String action2 = scanner.nextline().toLowerCase();
-                While (action1 && action2) {
+                String action2 = scanner.nextLine().toLowerCase();
+                while (action1 != null && action2 != null) {
                     if (action2.equals("appearances")) {
                         Appearences app = new Appearences(action1);
                         //what you learned from the daily affirmationa nd how you think you can achieve 
@@ -54,8 +50,8 @@ public class Main {
                 String action1 = scanner.nextLine();
                 System.out.println("          Why are you feeling this way?");
                 System.out.println("          'Appearances', 'Finances', 'School/Work', 'Family/Relationships', 'Other'");
-                String action2 = scanner.nextline().toLowerCase();
-                While (action1 && action2) {
+                String action2 = scanner.nextLine().toLowerCase();
+                while (action1 != null && action2 != null) {
                     if (action2.equals("appearances")) {
                         Appearences app = new Appearences(action1);
                     } else if (action2.equals("finances")) {
@@ -68,7 +64,7 @@ public class Main {
                         Other oth = new Other(action1);
                     }else  {
                         System.out.println("          Please try again!");
-                        System.out.println("          Which emotion resonates?");
+                        System.out.println("          Which emotion resonates?");                      
                         System.out.println("          6.Contentment, 7.Boredom, 8.Annoyance, 9.Indifference, 10.Neutrality? (Do not add spaces or extra characters)");
                         String action1 = scanner.nextLine();
                         System.out.println("          Why are you feeling this way?");
@@ -77,13 +73,13 @@ public class Main {
                     }
                 }
             } else if (action.equals("8-10")) {
-                System.out.println("        Which emotions resonate? Please type the number");
+                System.out.println("        Which emotions resonate? Please type the number");    
                 System.out.println("        11.Joy  12.Gratitude  13.Love  14.Peace  15.Satisfaction? (Do not add spaces or extra characters)");
                 String action1 = scanner.nextLine();
                 System.out.println("          Why are you feeling this way?");
                 System.out.println("          'Appearances', 'Finances', 'School/Work', 'Family/Relationships', 'Other'");
-                String action2 = scanner.nextline().toLowerCase();
-                While (action1 && action2) {
+                String action2 = scanner.nextLine().toLowerCase();
+                while (action1 != null && action2 != null) {
                     if (action2.equals("appearances")) {
                         Appearences app = new Appearences(action1);
                     } else if (action2.equals("finances")) {
@@ -96,8 +92,8 @@ public class Main {
                         Other oth = new Other(action1);
                     }else {
                         System.out.println("          Please try again!");
-                        System.out.println("          Which emotion resonates?");
-                        System.out.println("        11.Joy  12.Gratitude  13.Love  14.Peace  15.Satisfaction? (Do not add spaces or extra characters)");
+                        System.out.println("          Which emotion resonates?");                      
+                        System.out.println("          11.Joy  12.Gratitude  13.Love  14.Peace  15.Satisfaction? (Do not add spaces or extra characters)");
                         String action1 = scanner.nextLine();
                         System.out.println("          Why are you feeling this way?");
                         System.out.println("          'Appearances', 'Finances', 'School/Work', 'Family/Relationships', 'Other'");
@@ -109,7 +105,8 @@ public class Main {
                 System.out.println("          Please Try Again with the corrrect response!");                
                 System.out.println("          How was your day?");
                 System.out.println("          Rate your day as 0-4, 5-7, 8-10");
-                System.out.println("          Again, please write it as "0-4" or "5-7" or "8-10"");
+                System.out.println("          Type -1 and press enter to END Affirmify or type 0 to skip the talking about your emotions part.");
+                System.out.println("          Don't forget to write it as '0-4' or '5-7' or '8-10' :)");
             }
         }
         
