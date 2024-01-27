@@ -27,8 +27,8 @@
       appearances: I release the need to compare myself to others; I am unique and valuable.
       finances: I trust the journey, even when I do not understand it.
       school/work: I am free from the burdens of my past and open to new possibilities.
-      family/relationships:
-      other:
+      family/relationships: My past mistakes do not define my worth or my ability to grow.
+      other: Shame does not control me; I am in control of how I respond and grow from it.
 
 
   sadness 
