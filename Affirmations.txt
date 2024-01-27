@@ -20,12 +20,12 @@
   shame 
       appearances: 
       finances:
-      school/work
-      family/relationships 
-      other
+      school/work:
+      family/relationships:
+      other:
   sadness 
-      appearances 
-      finances
-      school/work
-      family/relationships 
-      other
+      appearances: 
+      finances:
+      school/work:
+      family/relationships: 
+      other:
