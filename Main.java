@@ -59,7 +59,7 @@ public class Main {
                         System.out.println("          Please try again!");
                         System.out.println("          Which emotion resonates?");
                         System.out.println("          Contentment, Boredom, Annoyance, Indfferennce, Neutraility. Do not add spaces or extra characters");
-                        String action1 = scanner.nextLine();
+                        String FiveToSevenEmotion = scanner.nextLine().toLowerCase();
                     }
                 }
 
