@@ -86,7 +86,7 @@ public class Appearances {
         break; 
     }
 
-    public void Apperences(String action, String temp) {
+    public Apperences(String action, String temp) {
       for (int i = 1; i <= content.size(); i++) {
         System.out.println("Log " + i);
         System.out.println(this.content.get(i-1));
