@@ -84,8 +84,18 @@ public class Finances {
         content.add("I release the need for more and embrace the abundance of what I already have.\n");
         System.out.println("https://goodbudget.com/");
         break 
+    }
 
+    public Finanaces(String action, String temp) {
+      for (int i = 1; i <= content.size(); i++) {
+        System.out.println("Log " + i);
+        System.out.println(this.content.get(i-1));
+      }
+      System.out.println("          Would you like to add any thoughts to your FINANCES log reflection today?\n          This can be what you are learning from your daily affirmations and how you've been achiving them, rather how you will.\n          YES or NO?");
+    }
 
+    public void Add(String content) {
+      this.content.add("\nPersonal Log: " + content + "\n");  
     }
 
   }
