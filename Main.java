@@ -135,7 +135,8 @@ public class Main {
                     if (action2.equals("yes")) 
                     {
                         String action3 = scanner.nextLine();
-                        
+                        app.Add(action3);
+                    }
                 } else if (action2.equals("2")) {
                     Finances fin = new Finances(action1, "print");
                 } else if (action2.equals("3")) {
