@@ -127,9 +127,22 @@ public class Main {
                 }
 
             } else if (action.equals("0")) {
-                System.out.println("Would you like to see your progress in whats been causing your feelings lately.\n1.Appearences, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
+                System.out.println("          Would you like to see your progress in whats been causing your feelings lately.\n          Choose from 0-5:\n          0.END Affirmify, 1.Appearences, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
                 String action1 = scanner.nextLine();
-                
+                if (action1.equals("1")) {
+                    Appearences app = new Appearences(action1, "print");
+                } else if (action2.equals("2")) {
+                    Finances fin = new Finances(action1, "print");
+                } else if (action2.equals("3")) {
+                    SchoolWork sch = new SchoolWork(action1, "print");
+                } else if (action2.equals("4")) {
+                    FamilyRship fm = new FamilyRship(action1, "print");
+                } else if (action2.equals("5")) {
+                    Other oth = new Other(action1, "print");
+                }else if (action2.equals("0")) {
+                    System.out.println("          Thanks for joining Affirmify today! Hope to see you and your mental health tomorow! :)");
+                    break outerloop;
+                }
                 past log reflections with
             } else if (action.equals("-1")) {
                 System.out.println("          Thanks for joining Affirmify today! Hope to see you and your mental health tomorow! :)");
