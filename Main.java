@@ -28,6 +28,10 @@ public class Main {
             } else if (action.equals("5-7")) {
 
             } else if (ations.equals("8-10")) {
+                System.out.println("        Which emotions resonate with you today?");
+                System.out.println("    Joy    Gratitude    Love    Peace    Satisfaction");
+                Scanner emotions = new Scanner(System.in);
+
 
             } else if (action == null || action.equals("") {
                 System.out.println("          Please Try Again with the corrrect response!");                System.out.println("          How was your day?");
