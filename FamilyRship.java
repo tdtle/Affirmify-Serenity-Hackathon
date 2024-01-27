@@ -5,7 +5,7 @@ public class FamilyRship {
   
   private ArrayList<Content> content;
 
-  public FamilyRship(num) {
+  public FamilyRship(String num) {
     System.out.println("Your daily Affirmify:");
     switch (num) {
       case "1":
