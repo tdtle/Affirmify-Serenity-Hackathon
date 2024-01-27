@@ -91,8 +91,8 @@ public class Main {
                     }
                 }
             } else if (action.equals("8-10")) {
-                System.out.println("        Which emotions resonate? Please type the number");    
-                System.out.println("        11.Joy  12.Gratitude  13.Love  14.Peace  15.Satisfaction? (Do not add spaces or extra characters)");
+                System.out.println("          Which emotions resonate? Please type the number");    
+                System.out.println("          11.Joy  12.Gratitude  13.Love  14.Peace  15.Satisfaction? (Do not add spaces or extra characters)");
                 String action1 = scanner.nextLine();
                 System.out.println("          Why are you feeling this way?");
                 System.out.println("          'Appearances', 'Finances', 'School/Work', 'Family/Relationships', 'Other'");
@@ -125,11 +125,13 @@ public class Main {
                 }
 
             } else if (action.equals("0")) {
+                System.out.println("Would you like to see your progress in whats been causing your feelings lately.\n1.Appearences, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
+                String action1 = scanner.nextLine();
                 
-
+                past log reflections with
             } else if (action.equals("-1")) {
-
-
+                System.out.println("          Thanks for joining Affirmify today! Hope to see you and your mental health tomorow! :)");
+                break outerloop;
             } else {
                 System.out.println("          Please Try Again with the corrrect response!");                
                 System.out.println("          How was your day?");
