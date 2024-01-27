@@ -1,29 +1,121 @@
 0-3
   unmotivated
+      appearances: My self-worth is not determined by societal standards of beauty
+      finances: I am motivated by the vision of the success that awaits me.
+      school/work: I am inspired and energized by the possibilities ahead of me.
+      family/relationships: I attract positive and supportive people into my life
+      other: My motivation is a reflection of my inner strength and resilience.
+
+
+  anxious
+        appearances: I am enough just as I am.
+        finances: I choose to focus on what I can control and let go of what I cannot.
+        school/work: I am capable of handling whatever comes my way.
+        family/relationships:  I am deserving of love, kindness, and understanding.
+        other: I choose peace over worry and joy over fear.
+
+
+  anger
+        appearances: I am surrounded by love and understanding, which helps dissipate my anger.
+        finances: I am resilient in the face of frustration, and I choose a positive response.
+        school/work: I choose to respond with patience and understanding instead of reacting in anger.
+        family/relationships: I let go of resentment and embrace forgiveness.
+        other: I breathe in calmness, and I exhale anger.
+
+
+  shame 
+      appearances: I release the need to compare myself to others; I am unique and valuable.
+      finances: I trust the journey, even when I do not understand it.
+      school/work: I am free from the burdens of my past and open to new possibilities.
+      family/relationships:
+      other:
+
+
+  sadness 
+      appearances: My beauty is a reflection of my inner strength and resilience.
+      finances: I am worthy of all the good things life has to offer.
+      school/work: I forgive myself for any mistakes and learn from them.
+      family/relationships: I am not defined by my past; I am empowered by my present.
+      other: I am in charge of my own happiness, and I choose to be happy.
+
+
+4-7
+
+contentment
+      appearances: I am present in my own life, engaged in the journey of self-discovery.
+      finances: Every day, I am taking steps toward a more secure financial future.
+      school/work: My life is a work in progress, constantly evolving and growing.
+      family/relationships: I actively invest time and effort into my relationships.
+      other: My life has purpose, and I actively contribute to it.
+
+
+boredom
+      appearances: I am a masterpiece in progress, and I appreciate the artistry of my existence.
+      finances: Boredom is a signal to explore new activities and experiences, explore new financial oppurtunities. 
+      school/work: I am open to discovering new interests and passions.
+      family/relationships: I choose to see my relationships with new eyes, appreciating the person they are becoming. Be proactive in planning activities and surprises.
+      other: Boredom is an opportunity for creativity, and I embrace it.
+
+
+annoyed
+      appearances: I am deserving of self-love and acceptance just as I am right now.
+      finances: I am grateful for the lessons hidden within moments of irritation.
+      school/work: I am not defined by the things that irritate me; I am defined by my response.
+      family/relationships: I choose to see the bigger picture, minimizing the impact of annoyances.
+      other: I am open to finding solutions rather than dwelling on annoyances.
+
+
+indifference
+      appearances: I choose to see the beauty within me and acknowledge my worth.
+      finances: I am grateful for the resources I have, and I use them wisely.
+      school/work: I appreciate and celebrate my strengths and accomplishments.
+      family/relationships: I communicate openly and honestly to strengthen my connections.
+      other: I release the habit of indifference and embrace a positive connection with myself.
+
+
+neutral
+      appearances: I choose to see the value and uniqueness in who I am.
+      finances: I am grateful for the abundance that flows into my life, and I manage it wisely.
+      school/work: I am present in my own life, engaged in the journey of self-discovery.
+      family/relationships: I am engaged in the dynamics of my relationships, seeking to understand and be understood.
+      other: I appreciate and celebrate my strengths and accomplishments.
+
+
+8-10
+
+joy
       appearances: 
       finances:
       school/work:
       family/relationships: 
       other:
-  anxious
-        appearances: 
-        finances:
-        school/work:
-        family/relationships: 
-        other:
-  anger
-        appearances: 
-        finances:
-        school/work:
-        family/relationships: 
-        other:
-  shame 
+
+
+gratitude
       appearances: 
       finances:
       school/work:
-      family/relationships:
+      family/relationships: 
       other:
-  sadness 
+
+
+love
+      appearances: 
+      finances:
+      school/work:
+      family/relationships: 
+      other:
+
+
+peace
+      appearances: 
+      finances:
+      school/work:
+      family/relationships: 
+      other:
+
+
+satisfaction
       appearances: 
       finances:
       school/work:
