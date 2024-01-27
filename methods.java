@@ -1,4 +1,14 @@
-public class methods {
+import java.util.ArrayList;
+import java.util.*;
+import java.lang.*;
+import java.io.File;
+import java.io.FileReader;
+
+public class methods{
+
+    public methods(String str1) {
+        if ((str1.toLowerCase())equals("
+    }
     public static void unmotivated(String str1){
         System.out.println("affirmation: ");
     }
