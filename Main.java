@@ -26,6 +26,11 @@ public class Main {
                 }
             
             } else if (action.equals("5-7")) {
+                System.out.println("          Which emotions resonates?");
+                System.out.println("          Contentment, Boredom, Annoyance, Indfferennce, Neutraility.");
+                String FiveToSevenEmotion = scanner.nextLine; 
+                
+                
 
             } else if (ations.equals("8-10")) {
                 System.out.println("        Which emotions resonate with you today?");
