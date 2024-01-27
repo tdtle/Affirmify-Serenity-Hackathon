@@ -90,6 +90,7 @@ public class Appearances {
         System.out.println("Log " + i);
         System.out.println(content.get(i-1));
       }
+      System.out.println("
     }
   }
 }
