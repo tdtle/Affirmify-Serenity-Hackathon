@@ -5,7 +5,7 @@ public class Other {
   
   private ArrayList<Content> content;
 
-  public Other(num) {
+  public Other(String num) {
     System.out.println("Your daily Affirmify:");
     switch (num) {
       case "1":
