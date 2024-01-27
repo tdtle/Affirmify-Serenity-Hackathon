@@ -1,2 +1,89 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class SchoolWork {
+
+  private ArrayList<Content> content;
+
+  public SchoolWork(num){
+    content = new Arraylist<Content>();
+    switch(num){
+      case "1":
+        System.out.println("I am inspired and energized by the possibilities ahead of me.");
+        System.out.println("https://www.themuse.com/ https://www.peardeck.com/products/pear-deck-tutor https://noc.esdc.gc.ca/CareerHandbook/ChWelcome  https://www.betterhelp.com/");
+        content.add("I am inspired and energized by the possibilities ahead of me.");
+        break;
+      case "2":
+        System.out.println(" I am capable of handling whatever comes my way.");
+        System.out.println("https://www.themuse.com/ https://www.peardeck.com/products/pear-deck-tutor https://noc.esdc.gc.ca/CareerHandbook/ChWelcome  https://www.betterhelp.com/");
+        content.add(" I am capable of handling whatever comes my way.");
+        break;
+      case "3":
+        System.out.println("I choose to respond with patience and understanding instead of reacting in anger.");
+        System.out.println("https://www.themuse.com/ https://www.peardeck.com/products/pear-deck-tutor https://noc.esdc.gc.ca/CareerHandbook/ChWelcome  https://www.betterhelp.com/");
+        content.add("I choose to respond with patience and understanding instead of reacting in anger.");
+        break;
+      case "4":
+        System.out.println("I am free from the burdens of my past and open to new possibilities.");
+        System.out.println("https://www.themuse.com/ https://www.peardeck.com/products/pear-deck-tutor https://noc.esdc.gc.ca/CareerHandbook/ChWelcome  https://www.betterhelp.com/");
+        content.add("I am free from the burdens of my past and open to new possibilities.");
+        break;
+      case "5":
+        System.out.println("I forgive myself for any mistakes and learn from them.");
+        System.out.println("https://www.themuse.com/ https://www.peardeck.com/products/pear-deck-tutor https://noc.esdc.gc.ca/CareerHandbook/ChWelcome  https://www.betterhelp.com/");
+        content.add("I forgive myself for any mistakes and learn from them.");
+        break;
+      case "6":
+        System.out.println("My life is a work in progress, constantly evolving and growing.");
+        System.out.println("https://www.edx.org/ https://www.khanacademy.org/ https://www.peardeck.com/products/pear-deck-tutor https://www.notion.so/");
+        content.add("My life is a work in progress, constantly evolving and growing.");
+        break;
+      case "7":
+        System.out.println(" I am open to discovering new interests and passions.");
+        System.out.println("https://www.edx.org/ https://www.khanacademy.org/ https://www.peardeck.com/products/pear-deck-tutor https://www.notion.so/");
+        content.add(" I am open to discovering new interests and passions.");
+        break;
+      case "8":
+        System.out.println("I am not defined by the things that irritate me; I am defined by my response.");
+        System.out.println("https://www.edx.org/ https://www.khanacademy.org/ https://www.peardeck.com/products/pear-deck-tutor https://www.notion.so/");
+        content.add("I am not defined by the things that irritate me; I am defined by my response.");
+        break;
+      case "9":
+        System.out.println("I appreciate and celebrate my strengths and accomplishments.");
+        System.out.println("https://www.edx.org/ https://www.khanacademy.org/ https://www.peardeck.com/products/pear-deck-tutor https://www.notion.so/");
+        content.add("I appreciate and celebrate my strengths and accomplishments.");
+        break;
+      case "10":
+        System.out.println("I am present in my own life, engaged in the journey of self-discovery.");
+        System.out.println("https://www.edx.org/ https://www.khanacademy.org/ https://www.peardeck.com/products/pear-deck-tutor https://www.notion.so/");
+        content.add("I am present in my own life, engaged in the journey of self-discovery.");
+        break;
+      case "11":
+        System.out.println("The more I express gratitude, the more joy I attract into my life.");
+        System.out.println("https://www.notion.so/");
+        content.add("The more I express gratitude, the more joy I attract into my life.");
+        break;
+      case "12":
+        System.out.println("I am grateful for the opportunities for growth that come my way.");
+        System.out.println("https://www.notion.so/");
+        content.add("I am grateful for the opportunities for growth that come my way.");
+        break;
+      case "13":
+        System.out.println("I am deeply loved, and I allow that love to penetrate every cell of my being.");
+        System.out.println("https://www.notion.so/");
+        content.add("I am deeply loved, and I allow that love to penetrate every cell of my being.");
+        break;
+      case "14":
+        System.out.println("My mind is calm, and my heart is at peace.");
+        System.out.println("https://www.notion.so/");
+        content.add("My mind is calm, and my heart is at peace.");
+        break;
+      case "15":
+        System.out.println("Satisfaction is my compass, guiding me toward positive and fulfilling experiences.");
+        System.out.println("https://www.notion.so/");
+        content.add("Satisfaction is my compass, guiding me toward positive and fulfilling experiences.");
+        break;
+    }
+    
+  }
 }
