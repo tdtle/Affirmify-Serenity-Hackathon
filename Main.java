@@ -10,7 +10,14 @@ public class Main {
         Library myLib = new library();
         
         Scanner scanner = new Scanner(System.in);
-        System.out.println("
+        System.out.println("          How was your day?");
+        System.out.println("          Rate your day as 0-3, 4-7, 8
+
+        while (scanner.hasNextLine()) {
+            String action = scanner.nextLine
+        }
+        
+        
         
     }
 }
