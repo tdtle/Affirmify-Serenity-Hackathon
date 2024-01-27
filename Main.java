@@ -60,10 +60,41 @@ public class Main {
                     }
                 }
 
-            } else if (ations.equals("8-10")) {
+            } 
+            else if (action.equals("8-10")) {
                 System.out.println("        Which emotions resonate with you today?");
-                System.out.println("    Joy    Gratitude    Love    Peace    Satisfaction");
-                Scanner emotions = new Scanner(System.in);
+                System.out.println("        Joy, Gratitude, Love, Peace, Satisfaction? Do not add extra spaces or characters.");
+                String action3 = scanner.nextLine();
+
+                while (action3){
+                    if (action3.equals("Joy") || action3.equals("joy")){
+
+                    }
+
+                    else if (action3.equals("Gratitude") || action3.equals("gratitude")){
+
+                    }
+
+                    else if (action3.equals("Love") || action3.equals("love")){
+
+                    }
+
+                    else if (action3.equals("Peace") || action3.equals("peace")){
+
+                    }
+
+                    else if (action3.equals("Satisfaction") || action3.equals("satisfaction")){
+
+                    }
+                    else if (action3.equals(null) || action3.equals("")){
+                        System.out.println("          Please try again!");
+                        System.out.println("          Which emotion resonates?");
+                        System.out.println("          Joy, Gratitude, Love, Peace, Satisfaction? Do not add spaces or extra characters");
+                        String action1 = scanner.nextLine();
+                    }
+
+
+                }
 
 
             } else if (action == null || action.equals("") {
