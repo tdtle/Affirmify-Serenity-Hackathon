@@ -21,16 +21,31 @@ public class Main {
                 System.out.println("          Which emotion resonates?");
                 System.out.println("          Unmotivated, Anxious, Anger, Shame, Sadness?");
                 String action1 = scanner.nextLine();
-           if (action1.equals("Unmotivated") || action1.equals("unmotivated") {
+             While (action1) {
+                    if (action1.equals("Unmotivated") || action1.equals("unmotivated") {
 
-                } else if (action1.equals("Anxious") || action1.equals("anxious") {
+                    } else if (action1.equals("Anxious") || action1.equals("anxious") {
                     
-                } else if (action1.equals("Anger") || action1.equals("anger") {
+                    } else if (action1.equals("Anger") || action1.equals("anger") {
                     
-                } else if (action1.equals("Shame") || action1.equals("shame") {
+                    } else if (action1.equals("Shame") || action1.equals("shame") {
                     
-                } else if (action1.equals("Sadness") || action1.equals("sadness") {
+                    } else if (action1.equals("Sadness") || action1.equals("sadness") {
                     
+                    } else if (action1.equals("Unmotivated") || action1.equals("unmotivated") {
+
+                    } else if (action1.equals("Anxious") || action1.equals("anxious") {
+                    
+                    } else if (action1.equals("Anger") || action1.equals("anger") {
+                    
+                    } else if (action1.equals("Shame") || action1.equals("shame") {
+                    
+                    } else if (action1.equals(null) || action1.equals("") {
+                        System.out.println("          Please try again!");
+                        System.out.println("          Which emotion resonates?");
+                        System.out.println("          Unmotivated, Anxious, Anger, Shame, Sadness? Do not add spaces or extra characters");
+                        String action1 = scanner.nextLine();
+                    }
                 }
             
             } else if (action.equals("5-7")) {
