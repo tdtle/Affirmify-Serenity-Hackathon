@@ -131,8 +131,11 @@ public class Main {
                 String action1 = scanner.nextLine();
                 if (action1.equals("1")) {
                     Appearences app = new Appearences(action1, "print");
-                    String action2 = scanner.nextLine();
-                    if (action2.equals(
+                    String action2 = scanner.nextLine().toLowerCase();
+                    if (action2.equals("yes")) 
+                    {
+                        String action3 = scanner.nextLine();
+                        
                 } else if (action2.equals("2")) {
                     Finances fin = new Finances(action1, "print");
                 } else if (action2.equals("3")) {
