@@ -1,13 +1,12 @@
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Other {
   
-  private ArrayList<Content> content;
+  private ArrayList<String> content = new ArrayList<String>();
 
-  public Other(String num) {
+  public Other(){};
+  public void other(String num) {
     System.out.println("Your daily Affirmify:");
-    content = new Arraylist<Content>();
     switch (num) {
       case "1":
         System.out.println("My motivation is a reflection of my inner strength and resilience.");
@@ -33,7 +32,7 @@ public class Other {
         System.out.println("I am in charge of my own happiness, and I choose to be happy.");
         content.add("I am in charge of my own happiness, and I choose to be happy.\n");
         System.out.println("https://www.betterhelp.com/ https://www.ted.com/talks/matthieu_ricard_the_h");
-        break 
+        break;
       case "6":
         System.out.println("My life has purpose, and I actively contribute to it.");
         content.add("My life has purpose, and I actively contribute to it.\n");
@@ -84,9 +83,16 @@ public class Other {
         content.add("Satisfaction flows through me, enhancing my overall well-being.\n");
         System.out.println("https://greatergood.berkeley.edu/podcasts/series/the_science_of_happiness%C2%A0");
         break;
+      default:
+        break;
     }
+  }
 
-    public Other(String action, String temp) {
+    public void Access() {
+      if (this.content.size() == 0) {
+        System.out.println("          You SADLY have made no progress in this department bestie. :(\n          Good news is you still have time!");
+      }
+
       for (int i = 1; i <= content.size(); i++) {
         System.out.println("Log " + i);
         System.out.println(this.content.get(i-1));
@@ -95,8 +101,8 @@ public class Other {
     }
 
     public void Add(String content) {
-      this.content.add("\nPersonal Log: " + content + "\n");  
+      this.content.add("Personal Log: " + content + "\n");
     }
 
-  }
+
 }
