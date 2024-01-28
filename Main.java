@@ -197,11 +197,12 @@ public class Main {
                                 System.out.println("          Hello Again!");
                                 System.out.println("          Give your day another rating bestie --> 1-10");
                                 System.out.println("          Type -1 and press enter to END Affirmify      OR      Type 0 and press enter to skip the talking about your emotions part.");
+                                continue outerloop;
                             } else if (actiontemp.equals("no")) {
                                 System.out.println("Hope to see you tomorrow!");
-                                System.exit(0);
+                                break outerloop;
                             }
-                            break outerloop;
+
                         } else {
                             System.out.println("          Hey again bestie, so since you did not want to talk about how your feeling right now.\n          Why don't we take a look at the progress you've made with one of your journals. If you do not want to, choose 0.\n          Choose from 0-5:\n          0. No, 1.Appearances, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
                             action1 = scanner.nextLine();
@@ -222,11 +223,12 @@ public class Main {
                                 System.out.println("          Hello Again!");
                                 System.out.println("          Give your day another rating bestie --> 1-10");
                                 System.out.println("          Type -1 and press enter to END Affirmify      OR      Type 0 and press enter to skip the talking about your emotions part.");
+                                continue outerloop;
                             } else if (actiontemp.equals("no")) {
                                 System.out.println("Hope to see you tomorrow!");
-                                System.exit(0);
+                                break outerloop;
                             }
-                            break outerloop;
+
                         } else {
                             System.out.println("          Hey again bestie, so since you did not want to talk about how your feeling right now.\n          Why don't we take a look at the progress you've made with one of your journals. If you do not want to, choose 0.\n          Choose from 0-5:\n          0. No, 1.Appearances, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
                             action1 = scanner.nextLine();
@@ -247,11 +249,12 @@ public class Main {
                                 System.out.println("          Hello Again!");
                                 System.out.println("          Give your day another rating bestie --> 1-10");
                                 System.out.println("          Type -1 and press enter to END Affirmify      OR      Type 0 and press enter to skip the talking about your emotions part.");
+                                continue outerloop;
                             } else if (actiontemp.equals("no")) {
                                 System.out.println("Hope to see you tomorrow!");
-                                System.exit(0);
+                                break outerloop;
                             }
-                            break outerloop;
+
                         } else {
                             System.out.println("          Hey again bestie, so since you did not want to talk about how your feeling right now.\n          Why don't we take a look at the progress you've made with one of your journals. If you do not want to, choose 0.\n          Choose from 0-5:\n          0. No, 1.Appearances, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
                             action1 = scanner.nextLine();
@@ -272,11 +275,12 @@ public class Main {
                                 System.out.println("          Hello Again!");
                                 System.out.println("          Give your day another rating bestie --> 1-10");
                                 System.out.println("          Type -1 and press enter to END Affirmify      OR      Type 0 and press enter to skip the talking about your emotions part.");
+                                continue outerloop;
                             } else if (actiontemp.equals("no")) {
                                 System.out.println("Hope to see you tomorrow!");
-                                System.exit(0);
+                                break outerloop;
                             }
-                            break outerloop;
+
                         } else {
                             System.out.println("          Hey again bestie, so since you did not want to talk about how your feeling right now.\n          Why don't we take a look at the progress you've made with one of your journals. If you do not want to, choose 0.\n          Choose from 0-5:\n          0. No, 1.Appearances, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
                             action1 = scanner.nextLine();
@@ -297,11 +301,12 @@ public class Main {
                                 System.out.println("          Hello Again!");
                                 System.out.println("          Give your day another rating bestie --> 1-10");
                                 System.out.println("          Type -1 and press enter to END Affirmify      OR      Type 0 and press enter to skip the talking about your emotions part.");
+                                continue outerloop;
                             } else if (actiontemp.equals("no")) {
                                 System.out.println("Hope to see you tomorrow!");
-                                System.exit(0);
+                                break outerloop;
                             }
-                            break outerloop;
+
                         } else {
                             System.out.println("          Hey again bestie, so since you did not want to talk about how your feeling right now.\n          Why don't we take a look at the progress you've made with one of your journals. If you do not want to, choose 0.\n          Choose from 0-5:\n          0. No, 1.Appearances, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
                             action1 = scanner.nextLine();
@@ -346,11 +351,11 @@ public class Main {
                                 System.out.println("          Hello Again!");
                                 System.out.println("          Give your day another rating bestie --> 1-10");
                                 System.out.println("          Type -1 and press enter to END Affirmify      OR      Type 0 and press enter to skip the talking about your emotions part.");
+                                continue outerloop;
                             } else if (actiontemp.equals("no")) {
                                 System.out.println("Hope to see you tomorrow!");
-                                System.exit(0);
+                                break outerloop;
                             }
-                            break outerloop;
                         } else {
                             System.out.println("          Would you like to delve in deeper and take a look at your progress with one of your journals? If so which one?\n          Choose from 0-5:\n          0. No, 1.Appearances, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
                             action1 = scanner.nextLine();
@@ -371,11 +376,12 @@ public class Main {
                                 System.out.println("          Hello Again!");
                                 System.out.println("          Give your day another rating bestie --> 1-10");
                                 System.out.println("          Type -1 and press enter to END Affirmify      OR      Type 0 and press enter to skip the talking about your emotions part.");
+                                continue outerloop;
                             } else if (actiontemp.equals("no")) {
                                 System.out.println("Hope to see you tomorrow!");
-                                System.exit(0);
+                                break outerloop;
                             }
-                            break outerloop;
+
                         } else {
                             System.out.println("          Would you like to delve in deeper and take a look at your progress with one of your journals? If so which one?\n          Please choose from 0-5:\n          0. No, 1.Appearances, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
                             action1 = scanner.nextLine();
@@ -396,11 +402,12 @@ public class Main {
                                 System.out.println("          Hello Again!");
                                 System.out.println("          Give your day another rating bestie --> 1-10");
                                 System.out.println("          Type -1 and press enter to END Affirmify      OR      Type 0 and press enter to skip the talking about your emotions part.");
+                                continue outerloop;
                             } else if (actiontemp.equals("no")) {
                                 System.out.println("Hope to see you tomorrow!");
-                                System.exit(0);
+                                break outerloop;
                             }
-                            break outerloop;
+
                         } else {
                             System.out.println("          Would you like to delve in deeper and take a look at your progress with one of your journals? If so which one?\n          Please choose from 0-5:\n          0. No, 1.Appearances, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
                             action1 = scanner.nextLine();
@@ -421,11 +428,12 @@ public class Main {
                                 System.out.println("          Hello Again!");
                                 System.out.println("          Give your day another rating bestie --> 1-10");
                                 System.out.println("          Type -1 and press enter to END Affirmify      OR      Type 0 and press enter to skip the talking about your emotions part.");
+                                continue outerloop;
                             } else if (actiontemp.equals("no")) {
                                 System.out.println("Hope to see you tomorrow!");
-                                System.exit(0);
+                                break outerloop;
                             }
-                            break outerloop;
+
                         } else {
                             System.out.println("          Would you like to delve in deeper and take a look at your progress with one of your journals? If so which one?\n          Please choose from 0-5:\n          0. No, 1.Appearances, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
                             action1 = scanner.nextLine();
@@ -446,11 +454,12 @@ public class Main {
                                 System.out.println("          Hello Again!");
                                 System.out.println("          Give your day another rating bestie --> 1-10");
                                 System.out.println("          Type -1 and press enter to END Affirmify      OR      Type 0 and press enter to skip the talking about your emotions part.");
+                                continue outerloop;
                             } else if (actiontemp.equals("no")) {
                                 System.out.println("Hope to see you tomorrow!");
-                                System.exit(0);
+                                break outerloop;
                             }
-                            break outerloop;
+
                         } else {
                             System.out.println("          Would you like to delve in deeper and take a look at your progress with one of your journals? If so which one?\n          Please choose from 0-5:\n          0. No, 1.Appearances, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
                             action1 = scanner.nextLine();
@@ -478,10 +487,11 @@ public class Main {
             }
 
         }
-        System.exit(0);
     }
 
 }
+
+
 
 
 
