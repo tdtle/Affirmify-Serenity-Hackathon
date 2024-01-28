@@ -1,13 +1,13 @@
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Finances {
   
-  private ArrayList<Content> content;
+  private ArrayList<String> content = new ArrayList<String>();
 
-  public Finances(String num) {
+
+  public Finances(){};
+  public void finances(String num) {
     System.out.println("Your daily Affirmify:");
-    content = new Arraylist<Content>();
     switch (num) {
       case "1":
         System.out.println("I am motivated by the vision of the success that awaits me.");
@@ -33,7 +33,7 @@ public class Finances {
         System.out.println(" I am worthy of all the good things life has to offer.");
         content.add(" I am worthy of all the good things life has to offer.\n");
         System.out.println("https://www.ynab.com/ https://www.kiplinger.com/ https://www.betterhelp.com/");
-        break 
+        break;
       case "6":
         System.out.println("Every day, I am taking steps toward a more secure financial future.");
         content.add("Every day, I am taking steps toward a more secure financial future.\n");
@@ -83,11 +83,18 @@ public class Finances {
         System.out.println("I release the need for more and embrace the abundance of what I already have.");
         content.add("I release the need for more and embrace the abundance of what I already have.\n");
         System.out.println("https://goodbudget.com/");
-        break 
+        break;
+      default:
+        break;
     }
+  }
 
-    public Finanaces(String action, String temp) {
-      for (int i = 1; i <= content.size(); i++) {
+    public void Access() {
+      if (this.content.size() == 0) {
+        System.out.println("          You SADLY have made no progress in this department bestie. :(\n          Good news is you still have time!");
+      }
+
+      for (int i = 1; i <= this.content.size(); i++) {
         System.out.println("Log " + i);
         System.out.println(this.content.get(i-1));
       }
@@ -95,8 +102,7 @@ public class Finances {
     }
 
     public void Add(String content) {
-      this.content.add("\nPersonal Log: " + content + "\n");  
+      this.content.add("Personal Log: " + content + "\n");
     }
 
   }
-}
