@@ -17,14 +17,14 @@ All 26 groups were tasked to create a prototype that will do one or more of the 
     3. Integrate with existing platforms and services to enhance the overall mental health ecosystem.
     
 
-Affirmify asks the user to rate their day on a scale of 1-10, then the user chooses from 5 life categories to curate a personal affirmation that resonates. 
+Affirmify asks the user to rate their day on a scale of 1-10, the user then chooses from 5 life categories to curate a personal affirmation that resonates with their emotions. 
 After which an optional open response journal feature is implemented to document the event is provided.
 Affirmify also keeps a history of the journals and organizes them based on the 5 life categories: 
-  1. appearance
-  2. finance 
-  3. school/work 
-  4. family/relationships
-  5. other. 
+  1. Appearance
+  2. Finance 
+  3. School/Work 
+  4. Family/Relationships
+  5. Other. 
 
 
 Below is a link to app prototype:
