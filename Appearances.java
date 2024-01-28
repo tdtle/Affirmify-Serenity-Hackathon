@@ -1,13 +1,13 @@
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Appearances {
   
-  private ArrayList<Content> content;
+  private ArrayList<String> content = new ArrayList<String>();
 
-  public Appearances(String num) {
+  public Appearances(){}
+
+  public void appearances(String num) {
     System.out.println("Your daily Affirmify:");
-    content = new Arraylist<Content>();
     switch (num) {
       case "1":
         System.out.println("My self-worth is not determined by societal standards of beauty.");
@@ -33,7 +33,7 @@ public class Appearances {
         System.out.println("My beauty is a reflection of my inner strength and resilience.");
         System.out.println("https://www.nationaleatingdisorders.org/ https://www.psychologytoday.com/ca/basics/body-image https://www.betterhelp.com/");
         this.content.add("My beauty is a reflection of my inner strength and resilience.\n");
-        break 
+        break;
       case "6":
         System.out.println("I am present in my own life, engaged in the journey of self-discovery.");
         System.out.println("https://bodyimagemovement.com/ https://www.psychologytoday.com/ca/basics/body-image");
@@ -83,11 +83,18 @@ public class Appearances {
         System.out.println(" I am content with where I am in life and excited about where I am going.");
         System.out.println("https://www.psychologytoday.com/ca/basics/body-image");
         this.content.add(" I am content with where I am in life and excited about where I am going.\n");
-        break; 
+        break;
+      default:
+        break;
     }
+  }
 
-    public Apperences(String action, String temp) {
-      for (int i = 1; i <= content.size(); i++) {
+    public void Access() {
+      if (this.content.size() == 0) {
+        System.out.println("          You SADLY have made no progress in this department bestie. :(\n          Good news is you still have time!");
+      }
+
+      for (int i = 1; i <= this.content.size(); i++) {
         System.out.println("Log " + i);
         System.out.println(this.content.get(i-1));
       }
@@ -95,8 +102,9 @@ public class Appearances {
     }
 
     public void Add(String content) {
-      this.content.add("\nPersonal Log: " + content + "\n");  
+      this.content.add("Personal Log: " + content + "\n");
     }
     
   }
-}
+
+
