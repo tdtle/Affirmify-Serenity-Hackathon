@@ -1,13 +1,12 @@
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class FamilyRship {
   
-  private ArrayList<Content> content;
+  private ArrayList<String> content = new ArrayList<String>();
 
-  public FamilyRship(String num) {
+  public FamilyRship(){};
+  public void familyrship(String num) {
     System.out.println("Your daily Affirmify:");
-    content = new Arraylist<Content>();
     switch (num) {
       case "1":
         System.out.println("I attract positive and supportive people into my life.");
@@ -33,7 +32,7 @@ public class FamilyRship {
         System.out.println("I am not defined by my past; I am empowered by my present.");
         System.out.println("https://www.boundariesbooks.com/ https://www.youtube.com/@watchwellcast https://www.betterhelp.com/");
         content.add("I am not defined by my past; I am empowered by my present.\n");
-        break 
+        break;
       case "6":
         System.out.println("I actively invest time and effort into my relationships.");
         System.out.println("https://artonfoundation.bg/en/119.emotional-intelligence-in-love-and-relationships.html https://www.youtube.com/@watchwellcast");
@@ -83,10 +82,17 @@ public class FamilyRship {
         System.out.println("I am content with who I am, where I am, and where I am headed.");
         System.out.println("https://www.health.harvard.edu/staying-healthy/ways-to-keep-your-relationship-strong");
         content.add("I am content with who I am, where I am, and where I am headed.\n");
-        break; 
+        break;
+      default:
+        break;
     }
+  }
 
-    public FamilyRship(String action, String temp) {
+    public void Access() {
+      if (this.content.size() == 0) {
+        System.out.println("          You SADLY have made no progress in this department bestie. :(\n          Good news is you still have time!");
+      }
+
       for (int i = 1; i <= content.size(); i++) {
         System.out.println("Log " + i);
         System.out.println(this.content.get(i-1));
@@ -95,8 +101,8 @@ public class FamilyRship {
     }
 
     public void Add(String content) {
-      this.content.add("\nPersonal Log: " + content + "\n");  
+      this.content.add("Personal Log: " + content + "\n");
     }
 
-  }
+
 }
