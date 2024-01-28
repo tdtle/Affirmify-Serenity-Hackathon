@@ -1,14 +1,13 @@
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class SchoolWork {
 
-  private ArrayList<Content> content;
+  private ArrayList<String> content = new ArrayList<String>();
 
-  public SchoolWork(String num){
+  public SchoolWork(){};
+  public void schoolwork(String num) {
     System.out.println("Your daily Affirmify:");
-    content = new Arraylist<Content>();
-    switch(num){
+    switch (num) {
       case "1":
         System.out.println("I am inspired and energized by the possibilities ahead of me.");
         System.out.println("https://www.themuse.com/ https://www.peardeck.com/products/pear-deck-tutor https://noc.esdc.gc.ca/CareerHandbook/ChWelcome  https://www.betterhelp.com/");
@@ -84,9 +83,15 @@ public class SchoolWork {
         System.out.println("https://www.notion.so/");
         content.add("Satisfaction is my compass, guiding me toward positive and fulfilling experiences.\n");
         break;
+      default:
+        break;
     }
+  }
+    public void Access() {
+      if (this.content.size() == 0) {
+        System.out.println("          You SADLY have made no progress in this department bestie. :(\n          Good news is you still have time!");
+      }
 
-    public SchoolWork(String action, String temp) {
       for (int i = 1; i <= content.size(); i++) {
         System.out.println("Log " + i);
         System.out.println(this.content.get(i-1));
@@ -95,8 +100,8 @@ public class SchoolWork {
     }
 
     public void Add(String content) {
-      this.content.add("\nPersonal Log: " + content + "\n");  
+      this.content.add("Personal Log: " + content + "\n");
     }
     
-  }
+
 }
