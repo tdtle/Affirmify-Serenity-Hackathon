@@ -1,3 +1,5 @@
+AFFIRMIFY
+
 #Authors
 Amrita Deol(@adeol20), Fiona Tewolde(@fxtewolde), and Thuy Duong Le(@tdtle) 
 
