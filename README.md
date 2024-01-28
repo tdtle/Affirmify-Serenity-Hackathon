@@ -1,4 +1,5 @@
 Affirmify: Daily Affirmations App
+
 Affirmify is a holistic application designed to foster mental well-being through the power of daily affirmations. Our app combines the therapeutic benefits of journaling with personalized affirmations, creating a supportive space for users to enhance their mental health.
 
 #Authors
