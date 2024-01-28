@@ -332,6 +332,7 @@ public class Main {
             }
 
             if (action != 0) {
+                System.out.println();
                 System.out.println("          Would you like to delve in deeper and take a look at your progress with one of your journals? If so which one?\n          Please choose from 1-5:\n          0. No, 1.Appearances, 2.Finances, 3.School/Work, 4. Family/Relationships, 5.Other");
                 String action1 = scanner.nextLine();
                 while (action1 != null) {
@@ -490,8 +491,3 @@ public class Main {
     }
 
 }
-
-
-
-
-
